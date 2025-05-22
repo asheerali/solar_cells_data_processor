@@ -4,13 +4,14 @@ import matplotlib.pyplot as plt
 from scipy.interpolate import interp1d
 import numpy as np
 import math
+from constants import main_folder_path, IRRADIANCE, SELECTED_PIXEL
 
 # Main folder path containing subfolders
-main_folder_path = r"C:\Users\ashee\Downloads\upwork\dani\2025_05_03\5015_Mai_2025\ill"
-
+# main_folder_path = r"C:\Users\ashee\Downloads\upwork\dani\2025_05_03\5015_Mai_2025\ill"
+main_folder_path = main_folder_path  # Set your main folder path here
 # Configuration - Set these values directly
-IRRADIANCE = 100.0  # Set your irradiance level here (in mW/cm²)
-SELECTED_PIXEL = "jvalues"  # Set the pixel/column you want to plot
+IRRADIANCE = IRRADIANCE
+SELECTED_PIXEL = SELECTED_PIXEL  # Set the pixel/column you want to plot
 
 def get_experiment_name(folder_name):
     """Generate experiment name based on folder name and timestamp"""
