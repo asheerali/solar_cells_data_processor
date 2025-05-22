@@ -1,0 +1,16 @@
+# Core data manipulation and analysis
+pandas
+
+# Scientific computing and numerical operations
+numpy
+scipy
+
+# Plotting and visualization
+matplotlib
+
+# Excel file support (optional - for .xlsx, .xls files)
+openpyxl
+xlrd
+
+# Additional dependencies that might be needed
+python-dateutil
